@@ -1,13 +1,17 @@
-/* *{
-    background-color: brown;
-
-} */
-
+body{
+    font-size: 17px;
+    background-color: #f4f4f4;
+}
 
 .logo-img {
     width: 5%;
 }
 
+.navbar{
+    width: 100%;
+    background-color: rgb(223, 57, 134);
+    color: #f0efef;
+}
 
 
 
