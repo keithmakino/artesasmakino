@@ -1,0 +1,22 @@
+.capa{
+    background-image: url(../img/capa.png);
+    background-attachment: fixed;
+    height: 100vh;
+    /* height: 100vh; */
+    width: 100%;
+    background-size: 100% 100vh;
+}
+
+.text{
+    font-size: 25px;
+    padding-top: 40%;
+    color: rgb(255, 255, 255);
+
+}
+
+.trabalhos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
