@@ -9,8 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-        <link rel="stylesheet" href="css/inicio.css">
-        <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Página inicial</title>
     <!-- Logo -->
     <link rel="icon" type="icon" href="ico/logo.ico">
@@ -18,6 +18,7 @@
 </head>
 
 <body>
+    <!-- MENU -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Artesãs Makino</a>
@@ -30,23 +31,25 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Início</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nossos trabalhos</a>
-                    </li>
-
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Loja colaborativa
+                        <a class="nav-link dropdown-toggle" href="pages/loja.hmtl" id="navbarDropdownMenuLink"
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Nossos trabalhos
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Nossos produtos</a></li>
-                            <li><a class="dropdown-item" href="#">Galeria</a></li>
-                            <li><a class="dropdown-item" href="#">Sobre</a></li>
+                            <li><a class="dropdown-item" href="pages/biscuit.html">Biscuit</a></li>
+                            <li><a class="dropdown-item" href="pages/beads.html">Hama beads</a></li>
+                            <li><a class="dropdown-item" href="pages/croche.html">Crochê</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quem somos</a>
+                        <a class="nav-link" href="pages/loja.html">Loja colaborativa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/eventos.html">Eventos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/quem-somos.html">Quem somos</a>
                     </li>
                 </ul>
             </div>
@@ -56,47 +59,45 @@
     <div class=" capa">
         <div class="container text">
             <h1>Seja bem-vindo(a) à nossa página!</h1>
+            <br>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, maiores id exercitationem et nesciunt
-                reiciendis odio quaerat, dolore nihil, ipsa quidem tempore iure rerum officiis omnis voluptates
-                aspernatur
-                esse voluptas.
+                Venha dar uma conferida em nossos trabalhos, estamos sempre com novidades adoráveis, sejam elas ideias
+                de grandes referências criativas ou das maravilhas personalisadas para nossos clientes. Caso se
+                interesse, pode você também trazer aquelas ideias muito divertidas para nós que vamos dar um jeitinho
+                para materializá-los para que possa usá-las como quiser depois.☻
             </p>
         </div>
     </div>
     <!-- NOSSOS TRABALHOS -->
     <div class="container trabalhos text-center">
         <h2>Nossos trabalhos</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nam inventore itaque ab dignissimos
-            praesentium magni omnis soluta, beatae nihil, eius rem nesciunt, dicta maiores! Vitae dicta suscipit dolores
-            quo.</p>
+        <p>Nós trabalhamos com diversos tipos de materais para sempre trazer aquelas novidades muito legais, sejam elas
+            em biscuit, hama beads, crochê e muito mais. (Haha.. Eu sei que só tem três tópicos abaixo, mas no momento
+            esses são os que temos de fotos (; u ;))</p>
         <div class="row cards text-center justify-content-evenly">
 
             <div class="col-sm-4 card">
                 <img src="img/croche/coruja-dorminhoca-bege.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Biscuit</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-danger">Ver</a>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-danger">Ver trabalhos</a>
                 </div>
             </div>
             <div class="col-sm-4 card">
                 <img src="img/pixelart/bimax.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Pixel Art</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-danger">Ver</a>
+                    <h5 class="card-title">Hama Beads</h5>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-danger">Ver trabalhos</a>
                 </div>
             </div>
             <div class="col-sm-4 card">
                 <img src="img/croche/coruja-dorminhoca-bege.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Crochê</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="btn btn-danger">Ver</a>
+                    <p class="card-text"></p>
+                    <a href="#" class="btn btn-danger">Ver trabalhos</a>
                 </div>
             </div>
         </div>
@@ -105,7 +106,7 @@
     <!-- LOJA COLABORATIVA -->
     <div class="loja text-center">
         <div class="row  text-center justify-content-evenly">
-            
+
             <div class="col-sm-3">
                 <img src="img/loja/loja.jpg" alt="" style="size: auto;">
             </div>
@@ -113,12 +114,11 @@
                 <br>
                 <h2>Loja Colaborativa</h2>
                 <br>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde laboriosam mollitia esse fugit culpa
-                    accusantium praesentium hic nobis. Facere ipsam dolore voluptatibus voluptas illum quod iste optio?
-                    Laboriosam, neque officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam saepe
-                    odit atque fugit cum voluptatibus vero voluptatum, sequi iure placeat recusandae in iusto? Dolorem,
-                    expedita odio facilis nam consequatur consectetur.</p>
-                    <a href="#" class="btn btn-primary">Ver</a>
+                <p>Conheça também a loja colaborativa Cantinho das Artes, lá vocês encontrarão alguns de nossos
+                    trabalhos e os trabalhos de outros artesãos também. É um mais belo que o outro. Se você não tem
+                    ideia do que dar de presente para a pessoa que você gostaria muito de presenteá-lo(a), aqui tem uma
+                    variedade de produtos artesanais incríveis para tornar o dia dessa pessoa muito especial. Venha conferir!</p>
+                <a href="#" class="btn btn-primary">Ver página</a>
 
             </div>
         </div>
